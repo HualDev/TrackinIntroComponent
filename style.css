@@ -1,0 +1,46 @@
+:root{
+    --red: hsl(0, 100%, 68%);
+    --veryDarkBlue: hsl(230, 29%, 20%);
+    --darkGrayishBlue: hsl(230, 11%, 40%);
+    --grayishBlue: hsl(231, 7%, 65%);
+    --lightGrayishBlue: hsl(207, 33%, 95%);
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Barlow', sans-serif;
+}
+
+main{
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-image: url('./images/illustration-devices.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 2rem center;
+    z-index: 1;
+}
+
+.logo{
+    width: 50%;
+    height: 80vh;
+    padding: 2rem;
+}
+
+.nav{
+    width: 50%;
+    height: 80vh;
+    background-color: var(--lightGrayishBlue);
+    padding: 2rem;
+    text-align: right;
+    z-index: -1;
+    border-radius: 0 0 0 5rem;
+}
