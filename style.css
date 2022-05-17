@@ -196,7 +196,7 @@ button{
     }
 
     .details{
-        margin-top: -30rem;
+        margin-top: -20rem;
         width: 30%;
     }
 
@@ -207,7 +207,7 @@ button{
 
 @media (min-width:800px) {
     .details{
-        margin-top: -27rem;
+        margin-top: -20rem;
     }
 
     ul{
